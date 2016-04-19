@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Aktiveringslink.aspx.vb" Inherits="Aktiveringslink" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Aktiveringslink.aspx.cs" Inherits="Aktiveringslink2" %>
 
 <!DOCTYPE html>
 
@@ -109,3 +109,4 @@
 
 
 </html>
+

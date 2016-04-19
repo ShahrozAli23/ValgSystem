@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="editCandidate.aspx.vb" Inherits="editCandidate" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="editCandidate.aspx.cs" Inherits="editCandidate2" %>
 
 <!DOCTYPE html>
 
@@ -225,3 +225,4 @@
 	</script>
 
 </html>
+

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Adminpanel.aspx.vb" Inherits="Adminpanel" %>
+﻿<%@ Page Language="C#" AutoEventWireup="false" CodeFile="Adminpanel.aspx.cs" Inherits="Adminpanel" %>
 
 <!DOCTYPE html>
 
@@ -590,3 +590,4 @@
 	</script>
 
 </html>
+

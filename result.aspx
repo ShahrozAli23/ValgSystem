@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="result.aspx.vb" Inherits="result" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="result.aspx.cs" Inherits="result2" %>
 
 <!DOCTYPE html>
 

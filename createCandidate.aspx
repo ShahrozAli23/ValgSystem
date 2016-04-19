@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="createCandidate.aspx.vb" Inherits="createCandidate" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="createCandidate.aspx.cs" Inherits="createCandidate2" %>
 
 <!DOCTYPE html>
 

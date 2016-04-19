@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="createPoll.aspx.vb" Inherits="createPoll" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="createPoll.aspx.cs" Inherits="createPoll2" %>
 
 <!DOCTYPE html>
 
@@ -543,3 +543,4 @@
 	</script>
 
 </html>
+

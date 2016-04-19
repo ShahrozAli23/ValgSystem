@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="createCandidateX.aspx.vb" Inherits="createCandidateX" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="createCandidateX.aspx.cs" Inherits="createCandidateX2" %>
 
 <!DOCTYPE html>
 
@@ -153,4 +153,3 @@
 	</script>
 
 </html>
-
