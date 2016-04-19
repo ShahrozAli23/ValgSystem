@@ -24,7 +24,7 @@
     <link href="css/stylesheet.css" rel="stylesheet"/>
 </head>
 <body class="admin-page">
-
+    <form id="form1" runat="server">
 <!-- Navbar -->
 <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll" role="navigation">
     <div class="container">
@@ -57,11 +57,11 @@
 	            </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                        Logget på som Shahroz Ali
+                        Logget på som Administrator
                         <b class="caret"></b>
                     <div class="ripple-container"></div></a>
                     <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a href="#">Log ud</a></li>
+                        <li><a href="#" runat="server" onserverclick="Button2_Click">Log ud</a></li>
                     </ul>
 	            </li>
             </ul>
@@ -565,7 +565,7 @@
         </div>
 	</div>
 </div>
-
+    </form>
 </body>
 
 	<!--   Core JS Files   -->

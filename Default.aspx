@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default" %>
 
 <!DOCTYPE html>
 
@@ -24,6 +24,7 @@
     <link href="css/stylesheet.css" rel="stylesheet"/>
 </head>
 <body class="signup-page">
+    <form id="form1" runat="server">
     <div class="wrapper">
 		<div class="header header-filter" style="background-image: url('img/login-bg.png'); background-size: cover; background-position: top center;">
 			<div class="container">
@@ -41,14 +42,14 @@
 										<span class="input-group-addon">
 											<i class="material-icons">email</i>
 										</span>
-										<input type="text" class="form-control" placeholder="Email...">
+										<input type="text" class="form-control" id="text_brugernavn" runat="server" placeholder="Email...">
 									</div>
 
 									<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">lock_outline</i>
 										</span>
-										<input type="password" placeholder="Kodeord..." class="form-control" />
+										<input type="password" placeholder="Kodeord..." id="text_Kodeord" runat="server" class="form-control" />
 									</div>
 
 									<div class="checkbox">
@@ -60,7 +61,8 @@
 								</div>
 								<div class="footer text-center">
                                     <div class="btn-group-vertical" role="group">
-                                        <button class="btn btn-raised brn-primary">Log på</button>
+                                        
+                                        <asp:Button ID="Button_logpind" class="btn btn-raised brn-primary" runat="server" OnClick="Logind" Text="Log på" />
                                         <a href="#" class="btn btn-primary btn-wd btn-lg">Glemt dit kodeord?</a>
                                     </div>
 								</div>
@@ -81,7 +83,7 @@
 		</div>
 
     </div>
-
+    </form>
 
 </body>
 	<!--   Core JS Files   -->
