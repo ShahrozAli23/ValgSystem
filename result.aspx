@@ -1,7 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="result.aspx.vb" Inherits="result" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <<meta charset="utf-8" />
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -22,7 +25,7 @@
 </head>
 
 <body class="components-page">
-
+    <a href="result.html">result.html</a>
 <!-- Navbar -->
 <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
     <div class="container">
@@ -128,3 +131,4 @@
 	</script>
 
 </html>
+
