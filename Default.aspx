@@ -1,12 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
 	<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
 	<link rel="icon" type="image/png" href="../assets/img/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Bekræft tilmelding</title>
+	<title>Login</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -20,7 +23,6 @@
     <link href="css/material-kit.css" rel="stylesheet"/>
     <link href="css/stylesheet.css" rel="stylesheet"/>
 </head>
-
 <body class="signup-page">
     <div class="wrapper">
 		<div class="header header-filter" style="background-image: url('img/login-bg.png'); background-size: cover; background-position: top center;">
@@ -29,8 +31,8 @@
 					<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
 						<div class="card card-signup">
 							<form class="form" method="" action="">
-								<div class="header header-info text-center">
-									<h4>Bekræft din tilmelding</h4>
+								<div class="header header-primary text-center">
+									<h4>Log på</h4>
 								</div>
 								<p class="text-divider"></p>
 								<div class="content">
@@ -39,7 +41,7 @@
 										<span class="input-group-addon">
 											<i class="material-icons">email</i>
 										</span>
-										<input type="text" class="form-control" placeholder="Email..." value="shahrozazmat@hotmail.com" disabled>
+										<input type="text" class="form-control" placeholder="Email...">
 									</div>
 
 									<div class="input-group">
@@ -49,17 +51,17 @@
 										<input type="password" placeholder="Kodeord..." class="form-control" />
 									</div>
 
-                                    <div class="input-group">
-										<span class="input-group-addon">
-											<i class="material-icons">lock_outline</i>
-										</span>
-										<input type="password" placeholder="Gentag kodeord..." class="form-control" />
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" name="optionsCheckboxes">
+											Log mig ikke af
+										</label>
 									</div>
 								</div>
 								<div class="footer text-center">
                                     <div class="btn-group-vertical" role="group">
-                                        <button class="btn btn-raised brn-primary">Bekræft</button>
-                                        <a href="#" class="btn btn-primary btn-wd btn-lg">Dette er ikke mig?</a>
+                                        <button class="btn btn-raised brn-primary">Log på</button>
+                                        <a href="#" class="btn btn-primary btn-wd btn-lg">Glemt dit kodeord?</a>
                                     </div>
 								</div>
 							</form>
@@ -71,7 +73,7 @@
 			<footer class="footer">
 		        <div class="container">
 		            <div class="copyright pull-right">
-		                  Feldborg.dk &copy; 2016
+		                  Feldborg Informatik &copy; 2016
 		            </div>
 		        </div>
 		    </footer>
@@ -102,8 +104,5 @@
 			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
 		});
 	</script>
-
-
-
 
 </html>
